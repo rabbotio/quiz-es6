@@ -1,4 +1,4 @@
-katopz
+@ katopz
 > What console log will print?
 ```js
 new Promise(reject => { throw 'foo' && reject('bar') })
