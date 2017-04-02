@@ -24,6 +24,6 @@ class Cat extends Pet {
 const answer = new Pet('hi') && new Cat('meow').speak()
 console.log(answer)
 ```
-- 'Cat:meow'
-- 'Pet:hi'
-- 'undefined'
+- "Cat:meow"
+- "Pet:hi"
+- "undefined"
