@@ -1,4 +1,5 @@
-// Q : What console info will print?
+// Auther : katopz
+// Q : What console log will print?
 class Pet {
   constructor(speech) {
     this.speech = speech
@@ -24,6 +25,6 @@ class Cat extends Pet {
 }
 
 const answer = new Pet('hi') && new Cat('meow').speak()
-console.info(answer)
+console.log(answer)
 
 // A : 'Cat:meow', 'Pet:hi', undefined, null
