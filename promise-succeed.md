@@ -8,5 +8,6 @@ new Promise(reject => { throw 'foo' && reject('bar') })
   .catch(err => console.log(`catch:${err}`))
 ```
 - "succeed:bar"
+- "failed:bar"
 - "failed:foo"
 - "catch:foo"
