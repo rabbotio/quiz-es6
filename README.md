@@ -1,4 +1,4 @@
-# quiz-es6
+# quiz-js
 Quiz about ES6 belong here
 
 ## Algorithms
